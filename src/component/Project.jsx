@@ -19,7 +19,14 @@ const Project = ({ ref }) => {
       FE: "https://github.com/raulmo9t/blogAppVercel.git",
       BE: "https://github.com/raulmo9t/render-blogApp-express.git",
       image: blogApp,
-      tech: ["React", "Node.js", "MongoDB", "TanStack Query", "Redux"],
+      tech: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TanStack Query",
+        "Redux",
+      ],
     },
     {
       title: "Forever – Full-Stack E-Commerce Platform",
@@ -30,7 +37,7 @@ const Project = ({ ref }) => {
       BE: "https://github.com/raulmo9t/eCommerceAppBackend.git",
       ADMIN: "https://github.com/raulmo9t/eCommerceAppAdminVercel.git",
       image: ecommerce,
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["React", "Node.js", "Express", "MongoDB"],
     },
     {
       title: "Christ – College Management Interface",
@@ -50,7 +57,7 @@ const Project = ({ ref }) => {
       BE: "https://github.com/raulmo9t/prescriptoAppBackend.git",
       ADMIN: "https://github.com/raulmo9t/prescriptoAppAdminVercel.git",
       image: prescripto,
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["React", "Node.js", "Express", "MongoDB"],
     },
   ];
 
