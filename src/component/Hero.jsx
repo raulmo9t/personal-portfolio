@@ -113,21 +113,21 @@ const Hero = ({ onScrollToProject, onScrollToContact }) => {
         {/* social icons */}
         <div className="flex justify-center gap-6 mb-12">
           <a
-            href="https://github.com"
+            href="https://github.com/raulmo9t"
             className="text-gray-400 hover:text-white transition-colors"
           >
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/rahul-mohanty-a97b4920b"
             className="text-gray-400 hover:text-white transition-colors"
           >
             <Linkedin size={24} />
           </a>
           <a
-            href="mailto:contact@example.com"
+            href="mailto:raulmo9t@gmail.com"
             className="text-gray-400 hover:text-white transition-colors"
-            onClick={onScrollToContact}
+            // onClick={onScrollToContact}
           >
             <Mail size={24} />
           </a>
